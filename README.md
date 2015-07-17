@@ -14,7 +14,7 @@ console.log(x,y);
 Results:
 x = 2, y = 1
 
-## complex variables can not be copied and will be new, they will point to the orginal
+## complex variables can not be copied and be new because they will point to the orginal
 ```
 var a = { x: 1 };
 
