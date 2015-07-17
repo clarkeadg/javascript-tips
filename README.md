@@ -11,6 +11,9 @@ x = 2;
 console.log(x,y);
 ```
 
+Results:
+x = 2, y = 1
+
 ## complex variables can not be copied and will be new, they will point to the orginal
 ```
 var a = { x: 1 };
@@ -22,6 +25,9 @@ a.x = 2;
 console.log(a,b);
 ```
 
+Results:
+a = { x: 2 }, b = { x: 2 }
+
 ## solve this by using a closure
 ```
 var a = (function(){
@@ -31,7 +37,12 @@ var a = (function(){
 b = a();
 c = a();
 
-c.x = 2;
+b.x = 2;
 
 console.log(b,c);
 ```
+
+Results:
+b = { x: 2 }, c = { x: 1 }
+
+
