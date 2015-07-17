@@ -143,7 +143,7 @@ function getData(i,cb){
 	//console.log('getting data',i)
 	// simulate request time
 	var requestTime = Math.random() * 200;
-	// put ajax call here, i am sumulated it with a setTimeout
+	// put ajax call here, i am simulating it with a setTimeout
 	setTimeout(function(){
 		var error = false;
 		// simulate error
