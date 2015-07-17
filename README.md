@@ -54,7 +54,7 @@ console.log(b,c);
 Results:
 b = { x: 2 }, c = { x: 1 }
 
-## dont use switch case, its slow in javascript
+## try not to use switch case
 ```
 switch(x) {
 	case 1:
@@ -66,7 +66,7 @@ switch(x) {
 }
 ```
 
-## use if with returns
+## use if with returns instead
 ```
 if (x == 1) {
 	return;
